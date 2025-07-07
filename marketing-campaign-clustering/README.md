@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves the analysis of a marketing campaign dataset to uncover insights about customer demographics, spending behaviors, and response patterns. The goal was to utilize data mining techniques to identify customer segments and factors influencing campaign effectiveness.
+This group project involves the analysis of a marketing campaign dataset to uncover insights about customer demographics, spending behaviors, and response patterns. The goal was to utilize data mining techniques to identify customer segments and factors influencing campaign effectiveness.
 
 ## Objectives
 
