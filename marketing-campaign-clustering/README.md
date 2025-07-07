@@ -62,5 +62,4 @@ pip install pandas numpy matplotlib seaborn notebook
 ## Future Work
 
 * Implement advanced clustering algorithms (e.g., K-means, hierarchical clustering) for more nuanced customer segmentation.
-* Employ predictive modeling techniques to forecast customer response rates to future campaigns.
 * Incorporate additional external datasets (e.g., social media engagement metrics) to enrich analysis and insights.
