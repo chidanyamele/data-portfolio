@@ -2,47 +2,48 @@
 
 ## Project Overview
 
-This group project involves the analysis of a marketing campaign dataset to uncover insights about customer demographics, spending behaviors, and response patterns. The goal was to utilize data mining techniques to identify customer segments and factors influencing campaign effectiveness.
+This project analyzed a marketing campaign dataset to uncover insights into customer demographics, spending behaviors, and response patterns. Conducted as a group project for a data mining course, the analysis aimed to identify distinct customer segments and key factors influencing campaign effectiveness.
 
 ## Objectives
 
-* Perform exploratory data analysis (EDA) to understand customer profiles.
+* Conduct exploratory data analysis (EDA) to understand customer profiles.
 * Identify customer segments based on purchasing behaviors.
 * Determine key attributes influencing customer responses to marketing campaigns.
-* Recommend strategies to enhance marketing effectiveness.
+* Provide actionable insights for enhancing marketing effectiveness.
 
 ## Data
 
-The dataset used was the "Marketing Campaign" dataset, which includes customer demographics, purchase history, and responses to marketing promotions. It was obtained from Kaggle and comprises 2240 entries with 33 attributes.
+The dataset used was the "Customer Personality Analysis" dataset from Kaggle, containing customer demographics, purchase history, and responses to marketing promotions. It comprises 2,240 records and 29 columns and was designed to help businesses tailor products to different customer segments based on the attributes: People, Product, Promotion, Place.
 
 ## Data Cleaning and Preparation
 
-* Missing values were identified and addressed by either imputing with median values or removing entries.
-* Categorical variables (e.g., marital status, education) were encoded using one-hot encoding.
-* Outliers in income and purchasing amounts were detected and managed to prevent skewed analyses.
+* Identified and addressed missing values through median imputation or removal of affected records.
+* Categorical variables (e.g., marital status, education) were transformed using one-hot encoding.
+* Outliers in income and purchase data were managed to ensure data integrity.
+* I specifically handled the data preparation phase, including removing unnecessary data, performing one-hot encoding for categorical variables, and creating the distance matrix using Euclidean distance for agglomerative clustering.
 
 ## Exploratory Data Analysis
 
-* Statistical analysis and visualization were performed using Python libraries such as pandas, matplotlib, and seaborn.
-* Analysis included distributions of customer demographics, income levels, and purchasing behaviors.
-* Correlation analysis was conducted to identify relationships between variables.
+* Performed statistical analysis and visualizations using pandas, matplotlib, seaborn, and other Python libraries.
+* Examined distributions of customer demographics, income levels, and purchasing behaviors.
+* Conducted correlation analyses to explore relationships between variables.
 
 ## Key Findings
 
-* Income strongly influences purchasing habits; higher income groups showed increased expenditure on premium products.
-* Families with children exhibited distinct purchasing behaviors, favoring essential goods over luxury items.
-* Educational background significantly impacted response rates to campaigns, with higher-educated customers responding more positively.
+* Higher-income customers spent more, especially on premium products, and responded positively to marketing campaigns.
+* Families with children demonstrated distinct purchasing behaviors focused on essentials rather than luxury items.
+* Higher educational backgrounds were associated with higher campaign response rates.
 
 ## Conclusions
 
-* Targeted marketing towards high-income and highly educated customer segments can improve campaign success rates.
-* Tailoring promotions based on family composition can optimize customer engagement and sales.
+* Targeting high-income and highly educated customer segments can significantly enhance marketing success.
+* Tailored promotions based on family composition can improve customer engagement and sales effectiveness.
 
 ## How to Run the Code
 
 1. Ensure Python is installed.
 2. Download the notebook and dataset.
-3. Execute the notebook cells sequentially.
+3. Execute the notebook cells sequentially in a Jupyter Notebook environment.
 
 ## Dependencies
 
@@ -51,15 +52,17 @@ The dataset used was the "Marketing Campaign" dataset, which includes customer d
 * numpy
 * matplotlib
 * seaborn
+* scikit-learn
+* scipy
 * Jupyter Notebook
 
 Install dependencies using:
 
 ```bash
-pip install pandas numpy matplotlib seaborn notebook
+pip install pandas numpy matplotlib seaborn scikit-learn scipy notebook
 ```
 
 ## Future Work
 
-* Implement advanced clustering algorithms (e.g., K-means, hierarchical clustering) for more nuanced customer segmentation.
-* Incorporate additional external datasets (e.g., social media engagement metrics) to enrich analysis and insights.
+* Implement advanced clustering algorithms (e.g., K-means, hierarchical clustering) for more detailed customer segmentation.
+* Integrate additional datasets, such as social media engagement metrics, to enrich analysis and provide deeper insights.
